@@ -13,11 +13,11 @@ const PgThree = () => {
 
     function handleSubmit(){
         if(q1.length>0 && q2.length>0 && q3.length>0 && q4.length>0 && q5.length>0){
-            localStorage.setItem(q1, true)
-            localStorage.setItem(q2, true)
-            localStorage.setItem(q3, true)
-            localStorage.setItem(q4, true)
-            localStorage.setItem(q5, true)
+            localStorage.setItem("q1", q1)
+            localStorage.setItem("q2", q2)
+            localStorage.setItem("q3", q3)
+            localStorage.setItem("q4", q4)
+            localStorage.setItem("q5", q5)
             router.push("/4")
         } else {
             alert("enter all details")
