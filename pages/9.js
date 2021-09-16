@@ -8,8 +8,8 @@ const PgNine = () => {
     const [option, selectOption] = useState(0)
     const [q1, setQ1] = useState("") 
     const [q2, setQ2] = useState("") 
-    const [q4, setQ3] = useState("") 
-    const [q3, setQ4] = useState("")
+    const [q3, setQ3] = useState("") 
+    const [q4, setQ4] = useState("")
 
     
     useEffect(() => {
