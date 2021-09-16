@@ -21,7 +21,7 @@ const PgNine = () => {
 
     function handleSubmit(){
         if(option!==0){
-            if(option===5){
+            if(option===4){
                 localStorage.removeItem("q4")
             } else {
                 localStorage.setItem("q"+option, q4)

@@ -51,7 +51,7 @@ const PgElevenB = () => {
                 <div style={{display:"flex", justifyContent:"space-evenly"}}>
                     <div style={option===1?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption(1)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {lq1}
@@ -59,7 +59,7 @@ const PgElevenB = () => {
                     </div>
                     <div style={option===2?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption(2)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {lq2}
@@ -67,7 +67,7 @@ const PgElevenB = () => {
                     </div>
                     <div style={option===3?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption(3)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {lq3}
@@ -80,7 +80,7 @@ const PgElevenB = () => {
                 <div style={{display:"flex", justifyContent:"space-evenly"}}>
                     <div style={option2===1?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption2(1)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {q1}
@@ -88,7 +88,7 @@ const PgElevenB = () => {
                     </div>
                     <div style={option2===2?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption2(2)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {q2}
@@ -96,7 +96,7 @@ const PgElevenB = () => {
                     </div>
                     <div style={option2===3?{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem", border:"3px solid white"}:{display:"inline-block", borderRadius:"1rem", backgroundColor:"rgba(0, 0, 0, 0.5)", textAlign:"center", color:"white", fontSize:"1.5rem"}} onClick={() => selectOption2(3)}>
                         <div>
-                            <img src="img/potion3.png" style={{height:"200px"}}/>
+                            <img src="img/potion3.png" style={{height:"150px"}}/>
                         </div>
                         <div>
                             {q3}
